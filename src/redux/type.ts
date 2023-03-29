@@ -1,8 +1,4 @@
-export interface typeState {
-	data: Array<typeObj>;
-}
-
-export interface typeObj {
+export interface Task {
 	id: string;
 	text: string;
 }
